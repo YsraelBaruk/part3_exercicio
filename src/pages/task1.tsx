@@ -16,7 +16,7 @@ export function Task1() {
       </Link>
 
       <div
-        className={`${person.theme.backgroundColor} w-5/6 px-10 py-5 rounded-xl m-5 ${person.theme.color}`}
+        className={`${person.theme.backgroundColor} w-1/2 px-10 py-5 rounded-xl m-5 ${person.theme.color}`}
       >
         <h1>{person.name}'s Todos</h1>
         <img
