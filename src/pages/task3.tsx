@@ -22,16 +22,16 @@ export function Task3() {
       <div
         className={`${person.theme.backgroundColor} w-5/6 px-10 py-5 rounded-xl m-5 ${person.theme.color}`}
       >
-        <h1>{person.name}'s Todos</h1>
+        <h1 className='text-xl'>{person.name}'s Todos</h1>
         <img
           src={`${baseUrl}${person.imageId}`}
           className={`rounded-full ${person.theme.imageSize}`}
-          alt="foto do Machado de Assis"
+          alt={person.name}
         />
         <ul className="list-disc">
-          <li>Improve the videophone</li>
-          <li>Prepare aeronautics lectures</li>
-          <li>Work on the alcohol-fuelled engine</li>
+          <li>Realismo psicológico profundo</li>
+          <li>Narrativa inovadora e não confiável</li>
+          <li>Crítica social e política incisiva</li>
         </ul>
       </div>
     </div>

@@ -25,9 +25,11 @@ export function Task1() {
           alt="foto do Machado de Assis"
         />
         <ul className="list-disc">
-          <li>Improve the videophone</li>
-          <li>Prepare aeronautics lectures</li>
-          <li>Work on the alcohol-fuelled engine</li>
+          
+          
+      <li>Realismo psicológico profundo</li>
+          <li>Narrativa inovadora e não confiável</li>
+          <li>Crítica social e política incisiva</li>
         </ul>
       </div>
     </div>
